@@ -7,9 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="add.php" class="btn btn-primary m-4">Add New</a>
-    <h2  class="text-center">List of Users In system</h2>
-    <table border="1" class="table container mb-3 table-bordered table-striped table-hover ">
+   
+    <h2  class="text-center card card-header ">List of Users In system</h2>
+    <a href="add.php" class="btn btn-primary m-4 right-end">Add New</a>
+    <table border="1" class="table container mb-4 table-bordered table-striped table-hover "> <br><br>
     
         <tr>
         <th>User ID</th>
