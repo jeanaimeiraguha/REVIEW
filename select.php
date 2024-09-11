@@ -8,7 +8,9 @@
 </head>
 <body>
     <a href="add.php" class="btn btn-primary m-4">Add New</a>
-    <table border="1" class="table container mb-3 table-bordered table-striped ">
+    <h2  class="text-center">List of Users In system</h2>
+    <table border="1" class="table container mb-3 table-bordered table-striped table-hover ">
+    
         <tr>
         <th>User ID</th>
         <th>User Name</th>
