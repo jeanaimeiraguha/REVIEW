@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add New</title>
 </head>
-<body>
-  <form action="insert.php" method="post" class="form was-validated container  mt-5">
+<body style="background-color: black;">
+  <form action="insert.php" method="post" class="form was-validated container  mt-5 p-5 lg-6 ">
 
     <input type="text" name="User_name" required class="form-control mb-3 mx-0"  placeholder="User_name"> 
     <div class="invalid-feedback">Please fill these fields</div>
