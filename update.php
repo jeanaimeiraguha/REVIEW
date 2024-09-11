@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -12,12 +13,12 @@
     $selecct =mysqli_query($conn , "SELECT * FROM Users where User_id='$User_id'");
     $row=mysqli_fetch_array($selecct);
     ?>
-    <form action="" method="post">
-    User_name<input type="text" name="User_name" value="<?php echo $row['User_name']?>"> <br>
-    User_Address<input type="text" name="User_Address"  value="<?php echo $row['User_Address']?>"> <br>
-    User_Phone<input type="text" name="User_phone" value="<?php echo $row['User_phone']?>"> <br>
+    <form action="" method="post" class="form was-validated p-5 lg-6 ">
+    <input type="text" name="User_name" value="<?php echo $row['User_name']?>" placeholder="User Name" class="form-control" required> <br>
+  <input type="text" name="User_Address"  value="<?php echo $row['User_Address']?>" placeholder="  User Address" class="form-control" required> <br>
+   <input type="text" name="User_phone" value="<?php echo $row['User_phone']?>" placeholder=" User Phone" class="form-control" required> <br>
     <br>
-    <input type="submit" name="submit">
+    <input type="submit" name="submit" class="btn btn-success">
 
   </form>  
 </body>
