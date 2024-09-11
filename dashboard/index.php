@@ -8,6 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-  <h2 class="text-center my-4 container">WELCOME TO USER MANAGEMENT SYSTEM</h2>
+  <h2 class="text-center my-4 ">WELCOME TO USER MANAGEMENT SYSTEM</h2>
+  <label for="" class="spinner-grow bg-success text-primary text">
+
+  </label>
 </body>
 </html>
