@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+
+<body style="background-color: #28f0dfa2;">
+<h2 class="text-center bg-dark card card-header" style="color: white;" >Update User</h2>
     <?php
     include('conn.php');
     $User_id= $_GET['User_id'];
