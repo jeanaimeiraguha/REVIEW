@@ -15,11 +15,14 @@ if (isset($_POST['submit'])) {
    if ($insert) {
     # code...
     
+
 header('location:select.php');
+echo"<script>alert('User added successfully')</script>";
+
 
    }
    else{
-    echo "something went wrong";
+    echo "<script>window.alert('User Name already')</script>";
    }
    
 
