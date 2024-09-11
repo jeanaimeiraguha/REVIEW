@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: hwb(150 20% 5% / 0.658);">
    
     <h2  class="text-center card card-header ">List of Users In system</h2>
     <a href="add.php" class="btn btn-primary m-4 right-end">Add New</a>
