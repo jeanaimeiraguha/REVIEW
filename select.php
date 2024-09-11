@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="background-color: hwb(150 20% 5% / 0.658);">
+<body style="background-color: #28f0dfa2;">
    
-    <h2  class="text-center card card-header ">List of Users In system</h2>
+    <h2  class="text-center card card-header bg-dark ">LIST OF USERS IN SYSTEM</h2>
     <a href="add.php" class="btn btn-primary m-4 right-end">Add New</a>
     <table border="1" class="table container mb-4 table-bordered table-striped table-hover mx-5 "> <br><br>
     
