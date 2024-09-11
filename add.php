@@ -7,9 +7,9 @@
 </head>
 <body>
   <form action="insert.php" method="post">
-    User_name<input type="text" name="User_name"> <br>
-    User_Address<input type="text" name="User_Address"> <br>
-    User_Phone<input type="text" name="User_Phone"> <br>
+    User_name<input type="text" name="User_name" required> <br>
+    User_Address<input type="text" name="User_Address" required> <br>
+    User_Phone<input type="text" name="User_Phone" required> <br>
     <br>
     <input type="submit" name="submit">
 
