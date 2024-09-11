@@ -10,7 +10,7 @@
    
     <h2  class="text-center card card-header ">List of Users In system</h2>
     <a href="add.php" class="btn btn-primary m-4 right-end">Add New</a>
-    <table border="1" class="table container mb-4 table-bordered table-striped table-hover "> <br><br>
+    <table border="1" class="table container mb-4 table-bordered table-striped table-hover mx-5 "> <br><br>
     
         <tr>
         <th>User ID</th>
@@ -30,8 +30,8 @@
     <td><?php echo $row['User_name']?></td>
     <td><?php echo $row['User_Address']?></td>
     <td><?php echo $row['User_phone']?></td>  
-    <td><a href="delete.php?User_id=<?php echo $row['User_id']?>">Delete</a></td>
-    <td><a href="update.php?User_id=<?php echo $row['User_id']?>">Update</a></td>
+    <td><a href="delete.php?User_id=<?php echo $row['User_id']?> " class="btn btn-danger">Delete</a></td>
+    <td><a href="update.php?User_id=<?php echo $row['User_id']?>" class="btn btn-success">Update</a></td>
 </tr>
 <?php
         }
