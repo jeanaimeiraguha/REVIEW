@@ -9,7 +9,7 @@
 </head>
 <body style="background-color:#28f0dfa2;">
   <h2 class="text-center my-4 ">WELCOME TO USER MANAGEMENT SYSTEM</h2>
-<a href="adminlogin.php" class="btn btn-success  " style="float: center; margin-left:566px; margin-bottom:-280px" >JOIN HERE</a>
+<a href="select.php" class="btn btn-success  " style="float: center; margin-left:566px; margin-bottom:-280px" >JOIN HERE</a>
  
 <h2  class='bg-success'>.....................</h2>
 <footer class="">
