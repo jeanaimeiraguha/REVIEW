@@ -17,9 +17,11 @@
     ?>
     <form action="" method="post" class="form was-validated p-5 lg-6 ">
     <input type="text" name="User_name" value="<?php echo $row['User_name']?>" placeholder="User Name" class="form-control" required> <br>
+    <label for="" class=invalid-feedback>please fill this field</label>
   <input type="text" name="User_Address"  value="<?php echo $row['User_Address']?>" placeholder="  User Address" class="form-control" required> <br>
+  <label for="" class=invalid-feedback>please fill this field</label>
    <input type="text" name="User_phone" value="<?php echo $row['User_phone']?>" placeholder=" User Phone" class="form-control" required> <br>
-    <br>
+    <br> <label for="" class=invalid-feedback>please fill this field</label>
     <input type="submit" name="submit" class="btn btn-success">
 
   </form>  

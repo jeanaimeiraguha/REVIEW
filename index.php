@@ -9,7 +9,7 @@
 </head>
 <body>
   <h2 class="text-center my-4 ">WELCOME TO USER MANAGEMENT SYSTEM</h2>
-<a href="select.php" class="btn btn-success  mx-0 ">JOIN HERE</a>
+<a href="select.php" class="btn btn-success  mx-5">JOIN HERE</a>
   <footer class="bg-success">
 
   </footer>
