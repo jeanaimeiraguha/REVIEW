@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color:#28f0dfa2;">
   <h2 class="text-center my-4 ">WELCOME TO USER MANAGEMENT SYSTEM</h2>
-<a href="select.php" class="btn btn-success  mx-5">JOIN HERE</a>
+<a href="select.php" class="btn btn-success  " style="float: center; margin-left:566px; margin-bottom:-288px" >JOIN HERE</a>
   <footer class="bg-success">
 
   </footer>
