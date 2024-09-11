@@ -25,8 +25,7 @@
     <td><?php echo $row['User_id']?></td>
     <td><?php echo $row['User_name']?></td>
     <td><?php echo $row['User_Address']?></td>
-    <td><?php echo $row['User_phone']?></td>
-    
+    <td><?php echo $row['User_phone']?></td>  
     <td><a href="delete.php?User_id=<?php echo $row['User_id']?>">Delete</a></td>
     <td><a href="update.php?User_id=<?php echo $row['User_id']?>">Update</a></td>
 </tr>
