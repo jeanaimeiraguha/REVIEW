@@ -9,8 +9,9 @@
 </head>
 <body>
   <h2 class="text-center my-4 ">WELCOME TO USER MANAGEMENT SYSTEM</h2>
-  <label for="" class="spinner-grow bg-success text-primary text">
+<a href="select.php" class="btn btn-success  mx-0 ">JOIN HERE</a>
+  <footer class="bg-success">
 
-  </label>
+  </footer>
 </body>
 </html>
