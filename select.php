@@ -29,9 +29,10 @@
     <td><a href="delete.php?User_id=<?php echo $row['User_id']?>">Delete</a></td>
     <td><a href="update.php?User_id=<?php echo $row['User_id']?>">Update</a></td>
 </tr>
-    </table>
-    <?php
+<?php
         }
     ?>
+    </table>
+   
 </body>
 </html>
