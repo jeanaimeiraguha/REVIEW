@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <a href="add.php">Add New</a>
-    <table border="1">
+    <a href="add.php" class="btn btn-primary m-4">Add New</a>
+    <table border="1" class="table container mb-3 table-bordered table-striped ">
         <tr>
         <th>User ID</th>
         <th>User Name</th>
