@@ -18,9 +18,11 @@
 include('conn.php');
 $admin_name='Iraguha';
 $admin_password='dot2024';
+$_POST['admin_name']= $admin_name;
+$_POST['admin_password']= $admin_password;
 if ($admin_password !='dot2024') {
     # code...
-    echo "wrong credentials";
+    echo "<script>alert('wrong credentials')</script>";
 }
 
 
