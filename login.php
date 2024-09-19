@@ -22,9 +22,10 @@ if (isset($_POST['submit'])) {
         $_SESSION['User_name'] = $User_name;
         $_SESSION['User_Address'] = $User_Address;
         $_SESSION['User_phone'] = $User_phone;
-        header('Location: index.php');
+        header('Location: select.php');
     } else {
-        echo "Wrong credentials";   
+        echo "<script>alert('Wrong Credentials. Register to Continue');</script>";
+
     }
 }
 ?>
