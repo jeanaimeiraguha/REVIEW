@@ -1,7 +1,7 @@
 <form action="" method="post">
     User_name: <input type="text" name="User_name"> <br>
     User_Address: <input type="text" name="User_Address"> <br>
-    User_Phone: <input type="text" name="User_phone"> <br> <!-- Corrected input name -->
+    User_Phone: <input type="text" name="User_phone"> <br> 
     <button name="submit">Login</button>
 </form>
 
