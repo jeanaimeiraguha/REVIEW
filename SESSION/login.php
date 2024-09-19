@@ -6,8 +6,11 @@ User_Phone <input type="text" name="Use_phone">
 </form>
 <?php
 include('conn.php');
-session_start()
-if (isset()) {
+session_start();
+if(isset($_POST['submit'])) {
     # code...
+    $User_name=$_POST['User_name'];
+    $User_Address=$_POST['User_Address'];
+    $User_Phone=$_POST['User_Phone'];
 }
 ?>
