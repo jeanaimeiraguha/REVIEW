@@ -16,7 +16,7 @@ if (isset($_POST['submit'])) {
     # code...
     
 
-header('location:select.php');
+header('location:index.php');
 echo"<script>alert('User added successfully')</script>";
 
 
